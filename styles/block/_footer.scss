@@ -1,0 +1,23 @@
+footer{
+    background-color: whitesmoke;
+    @include flexCenter (row, end, center);
+    height: 8vw;
+ 
+    
+
+    a{
+        margin-right: 5%;
+        width: 5%;
+
+        @include tablet{
+            width: 10%;
+        }
+    }
+
+    img{
+        width: 40%;
+      
+    }
+
+    
+}

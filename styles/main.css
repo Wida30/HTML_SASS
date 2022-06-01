@@ -1,0 +1,466 @@
+/* colors: */
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../../assets/mirrored-squares.png");
+  background-color: #008e9c;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  padding: 1%;
+  gap: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  header .logo_psicologia {
+    width: 12vh;
+    margin-right: 15%;
+  }
+  header .menu-icon {
+    display: inline;
+    width: 8%;
+  }
+}
+
+nav li {
+  font-size: 1,3rem;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+}
+
+nav a {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 20%;
+  padding: 10px;
+}
+
+nav a:hover {
+  border-bottom: #008e9c solid 5px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 25px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 99.9%;
+  min-height: 70%;
+  background-image: url("../../assets/mirrored-squares.png");
+  background-color: #008e9c;
+}
+
+@media screen and (max-width: 768px) {
+  .section1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0%;
+  }
+}
+
+.mitad {
+  padding: 2%;
+  width: 49%;
+}
+
+.mitad h1 {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .mitad {
+    width: 89%;
+  }
+  .mitad h1 {
+    font-size: 2rem;
+  }
+}
+
+.container {
+  padding: 3%;
+  width: 49%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.crop {
+  width: 100%;
+}
+
+.section_sobreMi_persona {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10%;
+}
+
+.section_sobreMi_persona .foto_monica {
+  margin-top: 5%;
+  width: 40%;
+  border-radius: 30%;
+  -webkit-box-shadow: #26394d 0px 20px 30px -10px;
+          box-shadow: #26394d 0px 20px 30px -10px;
+}
+
+.section_sobreMi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .section_sobreMi {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.oficina {
+  border: 18px solid whitesmoke;
+  width: 100%;
+}
+
+.texto h2 {
+  font-size: 2rem;
+  margin-bottom: 2%;
+}
+
+.texto p {
+  margin-bottom: 7px;
+}
+
+.titulo {
+  margin-top: 20%;
+  font-size: 2rem;
+  margin: 2%;
+}
+
+.como {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .como {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .como iframe {
+    width: 90vw;
+    height: 30vh;
+  }
+}
+
+.separaTexto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.separaTexto p {
+  margin-bottom: 5%;
+}
+
+.textoTerapia p {
+  margin: 1%;
+}
+
+.textoTerapia ul {
+  -webkit-padding-start: 10%;
+          padding-inline-start: 10%;
+}
+
+.textoTerapia li {
+  margin-bottom: 2%;
+  list-style-type: decimal;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .textoTerapia {
+    margin: 2%;
+  }
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  padding: 1%;
+  gap: 50%;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.logo_psicologia {
+  width: 160px;
+}
+
+nav a {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 20%;
+  padding: 10px;
+}
+
+nav a:hover {
+  border-bottom: #008e9c solid 5px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 25px;
+}
+
+.container2 {
+  width: 98vw;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    text-align: center;
+  }
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+input {
+  padding: 0.6rem 1rem;
+  width: 40%;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border: 3px solid #90d1d7;
+}
+
+textarea {
+  width: 42%;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+button {
+  border-radius: 20%;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  margin: 2%;
+}
+
+footer {
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 8vw;
+}
+
+footer a {
+  margin-right: 5%;
+  width: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  footer a {
+    width: 10%;
+  }
+}
+
+footer img {
+  width: 40%;
+}
+/*# sourceMappingURL=main.css.map */

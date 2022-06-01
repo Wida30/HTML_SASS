@@ -1,0 +1,30 @@
+.section_sobreMi{
+    @include flexCenter (row, baseline, center);
+
+    @include tablet{
+        @include flexCenter (column-reverse, center, center);
+       
+       
+    }
+}
+
+
+.oficina{
+    border:18px solid whitesmoke;
+    width: 100%;
+
+    
+}
+
+.texto {
+    h2{
+        font-size: 2rem;
+        margin-bottom: 2%;
+    }
+    p{
+      
+        margin-bottom: 7px;
+    }
+   
+}
+

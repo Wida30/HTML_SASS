@@ -1,0 +1,82 @@
+header {
+  @include flexCenter(row, space-around, center);
+  background-color: white;
+  padding: 1%;
+  gap: 50%;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.logo_psicologia {
+  width: 160px;
+}
+
+nav {
+  a {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20%;
+    padding: 10px;
+
+    &:hover {
+      border-bottom: rgb(0, 142, 156) solid 5px;
+    }
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+  }
+}
+
+.container2 {
+  width: 98vw;
+}
+
+form {
+  @include flexCenter(column, center, center);
+}
+
+.title {
+  font-size: 2rem;
+  margin: 1rem 0;
+  @include tablet {
+    text-align: center;
+  }
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+input {
+  padding: 0.6rem 1rem;
+  width: 40%;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 1rem;
+
+  &:focus {
+    outline: none;
+    border: 3px solid rgb(144, 209, 215);
+  }
+}
+
+textarea {
+  width: 42%;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+button {
+  border-radius: 20%;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  margin: 2%;
+}

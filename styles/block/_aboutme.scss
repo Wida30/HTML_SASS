@@ -1,0 +1,57 @@
+.section1 {
+  @include flexCenter(row-reverse, baseline, center);
+
+  max-width: 99.9%;
+  min-height: 70%;
+  background-image: url("../../assets/mirrored-squares.png");
+  background-color: $blue;
+
+  @include tablet{
+    @include flexCenter (column, center, center);
+    margin: 0%;
+   
+    
+  }
+}
+.mitad {
+  padding: 2%;
+  width: 49%;
+
+  h1 {
+    font-size: 3rem;
+  }
+  @include tablet{
+    width: 89%;
+
+    h1{
+      font-size: 2rem;
+    }
+   
+  }
+}
+
+.container {
+  padding: 3%;
+  width: 49%;
+
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crop {
+  width: 100%;
+}
+
+.section_sobreMi_persona {
+  @include flexCenter(column, center, center);
+  gap: 10%;
+  
+  .foto_monica {
+    margin-top: 5%;
+    width: 40%;
+    border-radius: 30%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+}

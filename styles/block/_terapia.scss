@@ -1,0 +1,49 @@
+.titulo {
+  margin-top: 20%;
+  font-size: 2rem;
+  margin: 2%;
+}
+
+.como {
+  @include flexCenter(row, center, center);
+  @include tablet {
+    @include flexCenter(column, center, center);
+
+    iframe {
+      width: 90vw;
+      height: 30vh;
+    }
+  }
+}
+.separaTexto {
+  @include flexCenter(column, flex-start, flex-start);
+
+  p {
+    margin-bottom: 5%;
+  }
+}
+
+.textoTerapia {
+  p {
+    margin: 1%;
+  }
+ 
+
+  ul {
+    padding-inline-start: 10%;
+    
+  }
+
+  li {
+    margin-bottom: 2%;
+    list-style-type: decimal;
+    font-size: 1.2rem;
+   
+    
+  }
+
+ 
+  @include tablet {
+    margin: 2%;
+  }
+}

@@ -1,0 +1,20 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../../assets/mirrored-squares.png");
+    background-color: $blue;
+}
+h2{
+    text-decoration:underline;
+}
+
+p{
+    text-align: justify;
+    font-size: 1.2rem;
+}

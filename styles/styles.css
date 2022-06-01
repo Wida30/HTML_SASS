@@ -1,0 +1,141 @@
+*,
+section,
+header,
+body,
+a {
+
+    margin:  0%;
+    padding: 0%;
+    text-decoration: none;
+    color: black;
+    max-width: 99.9vw;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #6aa777;
+    background-image: url(../assets/wet-snow.png);
+}
+
+a {
+
+
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+
+
+.container {
+    width: 100vw;
+    height: 20vh;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.container>.crop {
+    position: absolute;
+    left: -100%;
+    right: -100%;
+    top: -83%;
+    bottom: -107%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 105vw;
+}
+
+nav {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 4% 0%;
+}
+
+nav a:hover {
+    background-color: #0a380a;
+}
+
+
+.section_sobreMi_persona {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+    
+
+}
+
+.info {
+    gap: 22%;
+    margin-top: 26%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 9%;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+h2{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+h3 {
+    font-size: 1.5rem;
+
+    text-align: center;
+}
+
+.foto_monica {
+    border-radius: 34%;
+    width: 62vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 10%;
+}
+
+
+.section_sobreMi {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+
+}
+
+.section_sobreMi>p {
+
+    margin: 2% 0%;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.section_terapia {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+
+}
+
+.section_terapia>p {
+    margin: 2% 0%;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.fases {
+
+    display: flex;
+    flex-direction: column;
+    list-style:decimal;
+    padding-inline-start: 10%;
+    font-size: 1.3rem;
+
+}
