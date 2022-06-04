@@ -2,6 +2,7 @@
   margin-top: 20%;
   font-size: 2rem;
   margin: 2%;
+  
 }
 
 .como {
@@ -24,6 +25,9 @@
 }
 
 .textoTerapia {
+
+  margin: 2% 2% 5% 2%;
+ 
   p {
     margin: 1%;
   }
@@ -44,6 +48,6 @@
 
  
   @include tablet {
-    margin: 2%;
+    margin: 7%;
   }
 }

@@ -9,6 +9,11 @@ footer{
         margin-right: 5%;
         width: 5%;
 
+        &:hover{
+            
+            width:7%;
+        }
+
         @include tablet{
             width: 10%;
         }

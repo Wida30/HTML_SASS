@@ -47,6 +47,7 @@ header {
   header .menu-icon {
     display: inline;
     width: 8%;
+    margin-left: 15%;
   }
 }
 
@@ -299,6 +300,10 @@ nav ul {
   margin-bottom: 5%;
 }
 
+.textoTerapia {
+  margin: 2% 2% 5% 2%;
+}
+
 .textoTerapia p {
   margin: 1%;
 }
@@ -316,7 +321,7 @@ nav ul {
 
 @media screen and (max-width: 768px) {
   .textoTerapia {
-    margin: 2%;
+    margin: 7%;
   }
 }
 
@@ -422,6 +427,7 @@ textarea {
   width: 42%;
   border: 1px solid white;
   border-radius: 20px;
+  padding: 0.6rem 1rem;
 }
 
 button {
@@ -452,6 +458,10 @@ footer {
 footer a {
   margin-right: 5%;
   width: 5%;
+}
+
+footer a:hover {
+  width: 7%;
 }
 
 @media screen and (max-width: 768px) {
